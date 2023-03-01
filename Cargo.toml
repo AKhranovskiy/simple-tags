@@ -1,0 +1,16 @@
+[package]
+name = "simple-tags"
+version = "0.3.0"
+edition = "2021"
+authors = ["Andrey Khranovsky <andrey.khranovsky@gmail.com>"]
+description = "Extract tags from audio files, facade to Lofty"
+readme = "README.md"
+repository = "https://github.com/AKhranovskiy/simple-tags"
+license = "MIT OR Apache-2.0"
+keywords = ["audio", "tags", "idv3", "lofty"]
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+anyhow = "1.0.69"
+lofty = "0.11.0"
+serde = { version = "1.0.152", features = ["derive"] }
